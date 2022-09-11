@@ -13,26 +13,3 @@
     padding: 0px;
 }
 
-body {
-    background: black url(../imagens/pexels-guilherme-rossi-1755683.jpg) no-repeat center center;
-}
-
-section#login{
-    background-color: #5353539c;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-}
-
-div > h1 {
-    text-align: center;
-    padding: 50px;
-    color: white;
-}
-
-div > p {
-    color: white;
-    text-align: center;
-    padding-bottom: 30px;
-}
