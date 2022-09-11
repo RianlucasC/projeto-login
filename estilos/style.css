@@ -1,13 +1,5 @@
 @charset "UTF-8";
 
-/* #F50F00 vermelho
-   #C20D00  vermelho escuro 
-   #100F10 preto
-   #535353 cinza
-   #1B1B1B cinza escuro
-   #242424 cinza claro
-*/
-
 * {
     margin: 0px;
     padding: 0px;
@@ -30,7 +22,7 @@ div > img {
 }
 
 section#login {
-    background-color: rgba(255, 255, 255, 0.438);
+    background-color: #191921;
     width: 80vw;
     height: 80vh;
     border-radius: 10px;
@@ -38,6 +30,7 @@ section#login {
 
 section > div > h1 {
     text-align: center;
+    color: white;
     font-size: 2em;
     padding: 30px;
 }
@@ -51,9 +44,10 @@ p {
 }
 
 input {
+    background-color: #252A36;
+    color: white;
     display: inline-block;
     font-size: 1.5em;
-    border-radius: 5px;
 }
 
 .inputForm {
@@ -61,6 +55,7 @@ input {
 }
 
 input#botao {
+    background-color: rgb(74, 74, 206);
     width: 90px;
 }
 
