@@ -11,19 +11,26 @@
 <body>
     <main class="container">
         <section id="login">
-            <div id="imagem">
-            </div>
+            <div id="imagem"></div>
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. faça login para acessar sua conta</p>
                 <form action="login.php" method="post">
-                    <label for="idEmail">Email</label>
-                    <input type="email" name="email" id="idEmail">
-                    <label for="idSenha">Senha</label>
-                    <input type="password" name="senha" id="idSenha">
-                    <input type="submit" value="Entrar">
-                </form>
 
+                <p class="inputForm">
+                    <label for="idEmail">Email</label>
+                    <input type="email" name="email" id="idEmail" placeholder="example@gmail.com">
+                </p>
+
+                <p class="inputForm">
+                    <label for="idSenha">Senha</label>
+                    <input type="password" name="senha" id="idSenha" placeholder="*******">
+                </p>
+
+                <p>
+                    <input type="submit" value="Entrar" id="botao" >
+                </p>
+                </form>
             </div>
         </section>
     </main>
