@@ -6,7 +6,7 @@
 }
 
 main {
-    background: #1B1B1B url(../imagens/pexels-guilherme-rossi-1755683.jpg) no-repeat center center ;
+    background-color: blueviolet;
     width: 100vw;
     height: 100vh;
 }
@@ -17,48 +17,13 @@ main {
     
 }
 
-div > img {
-   display: none; 
+img {
+    width: 90vw;
+    height: 338px;
+    border-radius: 10px 10px 0px 0px;
 }
 
-section#login {
-    background-color: #191921;
-    width: 80vw;
-    height: 80vh;
-    border-radius: 10px;
-}
-
-section > div > h1 {
-    text-align: center;
-    color: white;
-    font-size: 2em;
-    padding: 30px;
-}
-
-form {
-    padding-top: 150px;
-}
-
-p {
-    text-align: center;
-}
-
-input {
-    background-color: #252A36;
-    color: white;
-    display: inline-block;
-    font-size: 1.5em;
-}
-
-.inputForm {
-    margin: 20px;
-}
-
-input#botao {
-    background-color: rgb(74, 74, 206);
-    width: 90px;
-}
-
-input.email {
-    text-align: center;
+div#formulario {
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
 }
