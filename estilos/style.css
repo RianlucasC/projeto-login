@@ -6,24 +6,36 @@
 }
 
 main {
-    background-color: blueviolet;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100vw;
     height: 100vh;
 }
-.container {
+
+section#login {
+    background-color: white;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    border-radius: 10px;
 }
 
-img {
-    width: 90vw;
-    height: 338px;
-    border-radius: 10px 10px 0px 0px;
+div#imagem {
+    background-color: aqua;
+    width: 400px;
+    height: 400px;
 }
 
 div#formulario {
-    background-color: white;
-    border-radius: 0px 0px 10px 10px;
+    background-color: blue;
+    display:flex ;
+    width: 400px;
+    height: 400px;
 }
+
+form {
+    background-color: white;
+}
+
+
+
