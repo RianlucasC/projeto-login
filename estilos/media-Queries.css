@@ -1,1 +1,29 @@
 
+@media screen  and (min-width: 768px) {
+    section {
+        width: 800px;
+        height: 500px;
+    }
+
+
+    div#img {
+        background-color: blueviolet;
+        border-radius: 10px 0px 0px 10px;
+        width: 400px;
+        height: 500px;
+    }
+
+    div#contFormulario {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0px 10px 10px 0px;
+    }
+
+    div#formulario {
+        background-color: brown;
+        width: 250px;
+        height: 350px;
+        border-radius: 10px;
+    }
+}
