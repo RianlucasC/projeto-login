@@ -7,13 +7,20 @@
 
 
     div#img {
-        background-color: blueviolet;
         border-radius: 10px 0px 0px 10px;
         width: 400px;
         height: 500px;
     }
 
+    img {
+        display:block ;
+        width: 400px;
+        height: 500px;
+        border-radius: 10px 0px 0px 10px;
+    }
+
     div#contFormulario {
+        background-color: #272b3f;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -21,9 +28,20 @@
     }
 
     div#formulario {
-        background-color: brown;
+        background-color: white;
         width: 250px;
-        height: 350px;
+        height: 300px;
         border-radius: 10px;
     }
+
+    input {
+        margin: 5px;
+        padding: 7px;
+    }
+
+    input#btn {
+        margin: 20px;
+    }
+
+    
 }

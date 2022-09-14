@@ -7,7 +7,7 @@
 }
 
 main {
-    background-color: gray;
+    background-color: #0C1013;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,31 @@ div#contFormulario {
     height: 500px;
 }
 
+img {
+    display: none;
+}
+
 form {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+}
+
+div > h1 {
+    font-size: 2em;
+    margin: 25px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+input {
+    margin: 20px;
+    padding: 10px;
+}
+
+input#btn {
+    background-color: #4248ff;
+    border-radius: 4px;
+    margin: 50px;
+    border: none;
 }
